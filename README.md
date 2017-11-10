@@ -6,5 +6,5 @@ Add this repo to your Podfile to add some of the most used helpers and extension
 pod 'Move4MobileTools'
 ```
 
-
+ * [Full documentation](https://jandoornbos.github.io/move4mobile-tools-ios/)
  * [Move4Mobile website](https://www.move4mobile.com)
