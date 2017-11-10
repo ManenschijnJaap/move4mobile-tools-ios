@@ -68,7 +68,7 @@
 		E40191141FB43D3F003EBD8F = {
 			isa = PBXGroup;
 			children = (
-				E40191201FB43D3F003EBD8F /* Move4MobileTools */,
+				E40191291FB44033003EBD8F /* Source */,
 				E401911F1FB43D3F003EBD8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,22 +81,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E40191201FB43D3F003EBD8F /* Move4MobileTools */ = {
-			isa = PBXGroup;
-			children = (
-				E40191291FB44033003EBD8F /* Source */,
-				E40191211FB43D3F003EBD8F /* Move4MobileTools.h */,
-				E40191221FB43D3F003EBD8F /* Info.plist */,
-			);
-			path = Move4MobileTools;
-			sourceTree = "<group>";
-		};
 		E40191291FB44033003EBD8F /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				E401912A1FB4404A003EBD8F /* Extensions */,
 				E401912E1FB440B0003EBD8F /* Helpers */,
 				E40191351FB4415E003EBD8F /* Move4MobileTools.swift */,
+				E40191211FB43D3F003EBD8F /* Move4MobileTools.h */,
+				E40191221FB43D3F003EBD8F /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -359,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -413,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -433,7 +425,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Move4MobileTools/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,7 +448,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Move4MobileTools/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
