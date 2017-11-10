@@ -1,6 +1,131 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Action.swift",
+      "line": 8,
+      "symbol": "Action",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Action.swift",
+      "line": 12,
+      "symbol": "Action.init(action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Action.swift",
+      "line": 17,
+      "symbol": "Action.action()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Alert.swift",
+      "line": 11,
+      "symbol": "Alert",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Alert.swift",
+      "line": 13,
+      "symbol": "Alert.AlertButton",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Alert.swift",
+      "line": 14,
+      "symbol": "Alert.AlertButton.ok",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Alert.swift",
+      "line": 15,
+      "symbol": "Alert.AlertButton.cancel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/App.swift",
+      "line": 8,
+      "symbol": "App",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/General/Device.swift",
+      "line": 8,
+      "symbol": "Device",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/View/NibLoadable.swift",
+      "line": null,
+      "symbol": "NibLoadable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/View/NibLoadable.swift",
+      "line": 8,
+      "symbol": "NibLoadable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/View/ReusableView.swift",
+      "line": null,
+      "symbol": "ReusableView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/View/ReusableView.swift",
+      "line": 8,
+      "symbol": "ReusableView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/View/StoryboardLoadable.swift",
+      "line": null,
+      "symbol": "StoryboardLoadable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Helpers/View/StoryboardLoadable.swift",
+      "line": 8,
+      "symbol": "StoryboardLoadable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Move4MobileTools.swift",
+      "line": 8,
+      "symbol": "Move4MobileTools",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Move4MobileTools.swift",
+      "line": 10,
+      "symbol": "Move4MobileTools.version",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jandoornbos/Development/Move4MobileTools/Source/Move4MobileTools.swift",
+      "line": 14,
+      "symbol": "EMPTY_STRING",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/jandoornbos/Development/Move4MobileTools"
 }
