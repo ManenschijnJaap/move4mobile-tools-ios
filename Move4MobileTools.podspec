@@ -16,6 +16,6 @@ and extensions to make some of the basic operations easier.
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/jandoornbos/move4mobile-tools-ios.git", :tag => "#{s.version}" }
-  s.source_files = "Source"
+  s.source_files = "Source/**/*.swift"
 
 end
