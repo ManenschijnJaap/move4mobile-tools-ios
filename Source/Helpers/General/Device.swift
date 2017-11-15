@@ -26,5 +26,25 @@ public class Device {
     public static var screenHeight: CGFloat {
         return UIScreen.main.bounds.size.height
     }
+    
+    /**
+     Is the current device an iPad.
+     
+     - Author: Jan Doornbos
+     - Version: 0.3
+    */
+    public static var isiPad: Bool {
+        return UIDevice.current.userInterfaceIdiom == .pad
+    }
+    
+    /**
+     Is the current device an iPhone.
+     
+     - Author: Jan Doornbos
+     - Version: 0.3
+    */
+    public static var isiPhone: Bool {
+        return UIDevice.current.userInterfaceIdiom == .phone
+    }
 
 }
