@@ -5,7 +5,7 @@
 
 import UIKit
 
-protocol NibLoadable {}
+public protocol NibLoadable {}
 
 extension NibLoadable where Self: UIView {
     
@@ -18,7 +18,7 @@ extension NibLoadable where Self: UIView {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static func loadFromNib() -> Self {
+    public static func loadFromNib() -> Self {
         return Bundle.main.loadNibNamed(String(describing: self), owner: nil, options: nil)?.first as! Self
     }
     
@@ -32,7 +32,7 @@ extension NibLoadable where Self: UIView {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    func add(toView view: UIView, aboveView: UIView? = nil) {
+    public func add(toView view: UIView, aboveView: UIView? = nil) {
         self.translatesAutoresizingMaskIntoConstraints = false
         if let aboveView = aboveView {
             view.insertSubview(self, aboveSubview: aboveView)

@@ -18,7 +18,7 @@ extension UIView {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    func addShadow(withColor color: UIColor = .black, offset: CGSize = CGSize(width: 0.0, height: 0.5), opacity: Float = 0.5) {
+    public func addShadow(withColor color: UIColor = .black, offset: CGSize = CGSize(width: 0.0, height: 0.5), opacity: Float = 0.5) {
         let layer = self.layer
         layer.masksToBounds = false
         layer.shadowColor = color.cgColor

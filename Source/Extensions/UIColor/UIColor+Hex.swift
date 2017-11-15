@@ -16,7 +16,7 @@ extension UIColor {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    convenience init(rgba: String) {
+    public convenience init(rgba: String) {
         var red:   CGFloat = 0.0
         var green: CGFloat = 0.0
         var blue:  CGFloat = 0.0
@@ -68,7 +68,7 @@ extension UIColor {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    func toHexString() -> String {
+    public func toHexString() -> String {
         var r: CGFloat = 0
         var g: CGFloat = 0
         var b: CGFloat = 0

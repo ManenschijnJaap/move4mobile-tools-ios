@@ -20,7 +20,7 @@ extension String {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
+    public func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
         let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
         let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [
             NSAttributedStringKey.font: font
@@ -41,7 +41,7 @@ extension String {
      - Author: Jan Doornbos
      - Version: 0.1
      */
-    func width(withConstraintedHeight height: CGFloat, font: UIFont) -> CGFloat {
+    public func width(withConstraintedHeight height: CGFloat, font: UIFont) -> CGFloat {
         let constraintRect = CGSize(width: .greatestFiniteMagnitude, height: height)
         let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [
             NSAttributedStringKey.font: font

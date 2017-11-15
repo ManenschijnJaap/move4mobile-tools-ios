@@ -5,7 +5,7 @@
 
 import UIKit
 
-class Device {
+public class Device {
     
     /**
      Get the screen width of the device.
@@ -13,7 +13,7 @@ class Device {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static var screenWidth: CGFloat {
+    public static var screenWidth: CGFloat {
         return UIScreen.main.bounds.size.width
     }
     
@@ -23,7 +23,7 @@ class Device {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static var screenHeight: CGFloat {
+    public static var screenHeight: CGFloat {
         return UIScreen.main.bounds.size.height
     }
 

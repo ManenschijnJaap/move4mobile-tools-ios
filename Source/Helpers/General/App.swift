@@ -5,7 +5,7 @@
 
 import UIKit
 
-class App {
+public class App {
     
     /**
      App version (CFBundleShortVersionString)
@@ -13,7 +13,7 @@ class App {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static var version: String {
+    public static var version: String {
         get {
             if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
                 return version
@@ -29,7 +29,7 @@ class App {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static var build: String {
+    public static var build: String {
         get {
             if let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
                 return build
@@ -45,7 +45,7 @@ class App {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static var bundleIdentifier: String {
+    public static var bundleIdentifier: String {
         get {
             if let bundleId = Bundle.main.bundleIdentifier {
                 return bundleId

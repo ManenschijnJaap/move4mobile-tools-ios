@@ -13,7 +13,7 @@ extension UIView {
      - Author: Jeffrey Schonewille
      - Version: 0.1
     */
-    func removeAllSubviews() {
+    public func removeAllSubviews() {
         self.subviews.forEach { $0.removeFromSuperview()}
     }
     

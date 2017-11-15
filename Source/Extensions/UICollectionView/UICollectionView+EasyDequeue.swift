@@ -19,7 +19,7 @@ extension UICollectionView {
      - Author: Jan Doornbos
      - Version: 0.1
      */
-    func dequeueCell<T: ReusableView>(cell: T.Type, atIndexPath indexPath: IndexPath) -> T {
+    public func dequeueCell<T: ReusableView>(cell: T.Type, atIndexPath indexPath: IndexPath) -> T {
         return self.dequeueReusableCell(withReuseIdentifier: cell.reuseIdentifier, for: indexPath) as! T
     }
     

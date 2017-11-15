@@ -5,7 +5,7 @@
 
 import UIKit
 
-protocol StoryboardLoadable {}
+public protocol StoryboardLoadable {}
 
 extension StoryboardLoadable {
     
@@ -21,7 +21,7 @@ extension StoryboardLoadable {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static func storyboardInstance() -> Self {
+    public static func storyboardInstance() -> Self {
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: identifier) as! Self
     }
     

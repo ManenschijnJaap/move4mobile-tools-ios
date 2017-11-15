@@ -16,7 +16,7 @@ extension UIToolbar {
      - Returns:
      An UIToolbar with a done button.
     */
-    static func keyboardBar(withAction action: Action) -> UIToolbar {
+    public static func keyboardBar(withAction action: Action) -> UIToolbar {
         let toolbar = UIToolbar()
         toolbar.barStyle = .default
         

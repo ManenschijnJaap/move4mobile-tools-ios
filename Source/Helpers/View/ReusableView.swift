@@ -5,7 +5,7 @@
 
 import UIKit
 
-protocol ReusableView {}
+public protocol ReusableView {}
 
 extension ReusableView {
     
@@ -15,7 +15,7 @@ extension ReusableView {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static var reuseIdentifier: String {
+    public static var reuseIdentifier: String {
         get {
             return String(describing: self)
         }

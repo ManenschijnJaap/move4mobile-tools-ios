@@ -19,7 +19,7 @@ extension UITableView {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    func dequeueCell<T: ReusableView>(cell: T.Type) -> T {
+    public func dequeueCell<T: ReusableView>(cell: T.Type) -> T {
         return self.dequeueReusableCell(withIdentifier: T.reuseIdentifier) as! T
     }
     

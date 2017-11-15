@@ -16,7 +16,7 @@ extension UIView {
      - Author: Jeffrey Schonewille
      - Version: 0.1
     */
-    func makeRounded(withRadius radius: CGFloat){
+    public func makeRounded(withRadius radius: CGFloat){
         self.layer.masksToBounds = true
         self.layer.cornerRadius = radius
     }
@@ -31,7 +31,7 @@ extension UIView {
      - Author: Jeffrey Schonewille
      - Version: 0.1
     */
-    func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
+    public func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
         let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         let mask = CAShapeLayer()
         mask.path = path.cgPath

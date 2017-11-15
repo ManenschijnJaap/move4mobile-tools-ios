@@ -7,7 +7,7 @@ import UIKit
 
 class Move4MobileTools {
     
-    static let version: String = "0.1"
+    public static let version: String = "0.1"
 
 }
 

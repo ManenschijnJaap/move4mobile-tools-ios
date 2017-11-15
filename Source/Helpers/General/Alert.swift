@@ -5,12 +5,12 @@
 
 import UIKit
 
-typealias AlertCallback = () -> ()
-typealias AlertChoiceCallback = (_ button: Alert.AlertButton) -> ()
+public typealias AlertCallback = () -> ()
+public typealias AlertChoiceCallback = (_ button: Alert.AlertButton) -> ()
 
-class Alert {
+public class Alert {
     
-    enum AlertButton {
+    public enum AlertButton {
         case ok
         case cancel
     }
@@ -25,7 +25,7 @@ class Alert {
      - Author: Jan Doornbos
      - Version: 0.1
      */
-    static func show(withMessage message: String?, inViewController vc: UIViewController) {
+    public static func show(withMessage message: String?, inViewController vc: UIViewController) {
         Alert.show(withTitle: nil, message: message, inViewController: vc)
     }
     
@@ -40,7 +40,7 @@ class Alert {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static func show(withTitle title: String?, message: String?, inViewController vc: UIViewController) {
+    public static func show(withTitle title: String?, message: String?, inViewController vc: UIViewController) {
         Alert.show(withTitle: title, message: message, inViewController: vc, nil)
     }
     
@@ -56,7 +56,7 @@ class Alert {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static func show(withTitle title: String?, message: String?, inViewController vc: UIViewController, _ callback: AlertCallback?) {
+    public static func show(withTitle title: String?, message: String?, inViewController vc: UIViewController, _ callback: AlertCallback?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let cancel = UIAlertAction(title: NSLocalizedString("ok", comment: ""), style: .cancel, handler: { (action) in
             if let callback = callback {
@@ -79,7 +79,7 @@ class Alert {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    static func distructiveAlert(withTitle title: String?, message: String?, inViewController vc: UIViewController, _ callback: AlertChoiceCallback?) {
+    public static func distructiveAlert(withTitle title: String?, message: String?, inViewController vc: UIViewController, _ callback: AlertChoiceCallback?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let ok = UIAlertAction(title: NSLocalizedString("ok", comment: ""), style: .destructive) { (action) in
             if let callback = callback {

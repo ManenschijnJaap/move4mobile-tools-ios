@@ -17,7 +17,7 @@ extension UIView {
      - Author: Jan Doornbos
      - Version: 0.1
     */
-    func addBorder(withColor color: UIColor, andWidth width: CGFloat = 1.0) {
+    public func addBorder(withColor color: UIColor, andWidth width: CGFloat = 1.0) {
         self.layer.borderColor = color.cgColor
         self.layer.borderWidth = width / UIScreen.main.scale
         self.layer.masksToBounds = true

@@ -16,7 +16,7 @@ extension String {
      - Author: Jeffrey Schonewille
      - Version: 0.1
     */
-    func localized(comment: String = "") -> String {
+    public func localized(comment: String = "") -> String {
         return NSLocalizedString(self, comment: comment)
     }
     

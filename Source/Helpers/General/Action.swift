@@ -5,7 +5,7 @@
 
 import Foundation
 
-@objc final class Action: NSObject {
+@objc public final class Action: NSObject {
     
     private let _action: () -> ()
     
