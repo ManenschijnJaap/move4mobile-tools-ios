@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
 and extensions to make some of the basic operations easier.
                    DESC
 
-  s.homepage     = "http://github.com/jandoornbos/move4mobile-ios-tools"
+  s.homepage     = "https://github.com/jandoornbos/move4mobile-tools-ios"
   s.license      = "MIT"
 
   s.author             = { "Jan Doornbos" => "jdoornbos@move4mobile.com" }
 
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "http://github.com/jandoornbos/move4mobile-ios-tools.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/jandoornbos/move4mobile-tools-ios.git", :tag => "#{s.version}" }
   s.source_files = "Source/*.swift"
 
 end
