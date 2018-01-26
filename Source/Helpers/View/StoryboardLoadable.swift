@@ -25,6 +25,23 @@ extension StoryboardLoadable {
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: identifier) as! Self
     }
     
+    /**
+     Get a storyboard instance of the view controller from a defined storyboard.
+     
+     - Precondition: The storyboard identifier in storyboard, has to match the class name.
+     
+     - Returns: An instance of the view controller.
+     
+     - Parameters:
+        - storyboard: The file name of the storyboard.
+     
+     - Author: Jan Doornbos
+     - Version: 0.4
+    */
+    public static func storyboardInstance(fromStoryboard storyboard: String) -> Self {
+        return UIStoryboard(name: storyboard, bundle: nil).instantiateViewController(withIdentifier: identifier) as! Self
+    }
+    
 }
 
 extension UIViewController: StoryboardLoadable {}
