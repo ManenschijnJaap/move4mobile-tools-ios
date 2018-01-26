@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Move4MobileTools"
-  s.version      = "0.4"
+  s.version      = "0.5"
   s.summary      = "Some useful tools to use in your iOS Swift project."
 
   s.description  = <<-DESC
